@@ -17,9 +17,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bonito.mk \
     $(LOCAL_DIR)/aosp_sargo.mk \
-    $(LOCAL_DIR)/spark_bonito.mk
+    $(LOCAL_DIR)/spark_bonito.mk \
+    $(LOCAL_DIR)/spark_sargo.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_bonito-userdebug \
     aosp_sargo-userdebug \
-    spark_bonito-userdebug
+    spark_bonito-userdebug \
+    spark_sargo-userdebug
